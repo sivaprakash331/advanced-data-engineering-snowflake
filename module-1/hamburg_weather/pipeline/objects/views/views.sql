@@ -1,4 +1,6 @@
 -- Create view that adds weather data for cities where Tasty Bytes operates
+
+CREATE OR REPLACE DATABASE WEATHER_SOURCE_LLC_FROSTBYTE;
 CREATE OR REPLACE VIEW {{env}}_tasty_bytes.harmonized.daily_weather_v
 COMMENT = 'Weather Source Daily History filtered to Tasty Bytes supported Cities'
     AS
